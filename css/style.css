@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+}
+
+body {  
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+  flex-direction: column;
+  height: 98vh;
+  width: 98vw;
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+/* Primary: */
+  /* Text color */
+  color: hsl(193, 38%, 86%); /* Light Cyan */
+  /* Button color & Advice # color */
+  color: hsl(150, 100%, 66%); /* Neon Green */
+
+/* ### Neutral */
+  /* Horizonetal rule above button */
+    color: hsl(217, 19%, 38%); /* Grayish Blue */
+  /* Text box color */
+    color: hsl(217, 19%, 24%); /* Dark Grayish Blue */
+  /* Background color */
+    background: hsl(218, 23%, 16%);  /* Dark Blue */ 
+}
+
+section {
+  background: hsl(217, 19%, 24%);
+  color: hsl(193, 38%, 86%);
+  width: 550px;
+  height: 330px;
+  border-radius: 3%;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  color: hsl(150, 100%, 66%);
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.5em;
+  letter-spacing: 4px;
+}
+
+p, .theText {
+  text-align: center;
+}
+
+.theText {
+  height: 150px;
+  margin-bottom: 0;
+}
+
+.bottomLines {
+  margin-top: 0;
+}
+
+.myHr {
+  margin: 0;
+  text-align: center;
+}
+
+.middle {
+  width: 7%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.7em;
+  vertical-align: middle;
+  font-family: cursive;
+}
+
+#button {
+  position: relative;
+  margin: 35px 44%;
+  background-color: hsl(150, 100%, 66%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#button img {
+  margin: 30%;
+}
+
+.desktop {
+  display: initial;
+}
+
+.mobile {
+  display: none;
+}
+
+.attribution { 
+  position: absolute;
+  bottom: 0;
+  font-size: 11px; 
+  text-align: center; 
+  color: hsl(193, 38%, 86%);
+  background-color: hsl(217, 19%, 24%);
+  width: 100%;
+}
+
+a:active, a:visited {
+  color:hsl(150, 100%, 66%)
+}
+
+
+@media screen and (max-width: 650px) {
+  section {
+    width: 375px;
+    min-height: 330px
+  }
+
+  .theText {
+    min-height: 150px;
+    margin-bottom: 0;
+  }
+
+  .mobile {
+    display: initial;
+  }
+  .desktop {
+    display: none;
+  }
+}
