@@ -3,8 +3,7 @@ This is an advice generating app that pulls quotes from the API provided by the 
 
 https://danrhatfield.github.io/FEM_Advice_Generator_app/
 
-![alt tag](https://danrhatfield.github.io/FEM_Advice_Generator_app/images/advice-generator-screentshot.png)
-
+<img src="https://camo.githubusercontent.com/2505e9c64ac1479d38ca25f351a0de287474e9c54664d1c0fda5472f76411971/68747470733a2f2f64616e726861746669656c642e6769746875622e696f2f46454d5f4164766963655f47656e657261746f725f6170702f696d616765732f6164766963652d67656e657261746f722d73637265656e7473686f742e706e67" style="max-width: 100%;">
 
 ## How It's Made:
 
